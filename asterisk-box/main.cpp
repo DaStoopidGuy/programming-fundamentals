@@ -2,11 +2,12 @@
 using namespace std;
 
 int main() {
-    cout << "\t\t\t\t**************************" << endl;
-    cout << "\t\t\t\t*      Introduction      *" << endl;
-    cout << "\t\t\t\t*   Name: Sareb Janjua   *" << endl;
-    cout << "\t\t\t\t*   Degree: BSCS         *" << endl;
-    cout << "\t\t\t\t*   Semester: 1st        *" << endl;
-    cout << "\t\t\t\t**************************" << endl;
+    cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+            "\t\t\t\t\t\t\t\t\t\t**************************\n"
+            "\t\t\t\t\t\t\t\t\t\t*      Introduction      *\n"
+            "\t\t\t\t\t\t\t\t\t\t*   Name: Sareb Janjua   *\n"
+            "\t\t\t\t\t\t\t\t\t\t*   Degree: BSCS         *\n"
+            "\t\t\t\t\t\t\t\t\t\t*   Semester: 1st        *\n"
+            "\t\t\t\t\t\t\t\t\t\t**************************\n";
     return 0;
 }
