@@ -5,7 +5,8 @@ int main() {
     string name;
     int age;
     cout << "Please enter your name: ";
-    cin >> name;
+    /*cin >> name;*/
+    getline(cin, name);
     cout << "Please enter your age: ";
     cin >> age;
 
