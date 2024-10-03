@@ -7,7 +7,7 @@ int main() {
     cin >> number;
 
     if (number % 2 == 0)
-        cout << "Even numeber." << endl;
+        cout << "Even number." << endl;
     else 
         cout << "Odd number." << endl;
     

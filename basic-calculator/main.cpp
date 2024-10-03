@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-    int num1, num2, result;
+    int num1, num2;
+    float result;
     char op;
     cout << "Enter first num: ";
     cin >> num1;
@@ -18,11 +19,11 @@ int main() {
     else if (op == '*')
         result = num1 * num2;
     else if (op == '/')
-        result = num1 / num2;
+        result = (float) num1 / num2;
     else if (op == '%')
         result = num1 % num2;
 
-    cout << "Result = " << result << endl;
+    cout << num1 << op << num2 << " = " << result << endl;
 
     return 0;
 }
