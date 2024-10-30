@@ -9,13 +9,13 @@ int main() {
         int spaces = (row_len - count)/2;
         while (spaces >= 0)
         {
-            cout << " ";
+            cout << "  ";
             spaces--;
         }
         int asterisks = count;
         while(asterisks >= 1)
         {
-            cout << "*";
+            cout << "* ";
             asterisks--;
         }
 
@@ -27,13 +27,13 @@ int main() {
         int spaces = (row_len - count)/2;
         while (spaces >= 0)
         {
-            cout << " ";
+            cout << "  ";
             spaces--;
         }
         int asterisks = count;
         while(asterisks >= 1)
         {
-            cout << "*";
+            cout << "* ";
             asterisks--;
         }
 
